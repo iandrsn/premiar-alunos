@@ -9,6 +9,75 @@
     font-family: Outfit;
 }
 
+.premios {
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.cards-premios-item {
+    position: relative;
+    width: 250px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+h4 {
+    font-weight: bolder;
+}
+
+.item-premios-nome {
+    text-align: center;
+    font-weight: bolder;
+    color: #3d2816;
+}
+
+.item-premios-imagem>img {
+    display: flex;
+    max-width: 2200px;
+    max-height: 200px;
+    
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.item-premios-desc {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.item-premios-preco {
+    margin-top: 10px;
+    font-weight: bolder;
+    color: #3d2816;
+}
+
+.item-premios-acesse {
+    margin-top: 10px;
+    color: #407BFF;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.item-premios-acesse:before {
+    content: "";
+    position: absolute;
+    bottom: 17px;
+    height: 2px;
+    width: 0;
+    background: #407BFF;
+    border-radius: 50px;
+    transition: width 0.3s ease;
+}
+
+.item-premios-acesse:hover:before {
+    width: 65px;
+}
+
 /**Estilos para o cadastro de cliente**/
 
 #view {
@@ -145,10 +214,13 @@ form {
 }
 
 .forma {
+    
     margin-top: 2px;
     position: relative;
-    box-shadow: 0 0px 15px #1ec396;
+    box-shadow: 0 0px 15px #407BFF;
     border-radius: 50px;
+    overflow: hidden;
+    
 }
 
 .forma button {
@@ -156,14 +228,14 @@ form {
     background: transparent;
     border: none;
     position: relative;
-    padding: 10px 25px;
+    padding: 10px 30px;
 }
 
 .entre-cad {
     position: absolute;
-    width: 100px;
+    width: 123px;
     height: 100%;
-    background: linear-gradient(to right, #abe6d5, #1ec396);
+    background: linear-gradient(to right, #407cff8f, #407BFF);
     border-radius: 30px;
     transition: 0.3s;
 }
@@ -172,7 +244,7 @@ input[type="checkbox"] {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    border: 2px solid #1ec396;
+    border: 2px solid #407BFF;
     border-radius: 5px;
     width: 15px;
     height: 15px;
@@ -182,11 +254,11 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-    background-color: #52d4b1;
+    background-color: #407BFF;
 }
 
 button[type="submit"] {
-    background: #1ec396;
+    background: #407BFF;
     color: aliceblue;
     border-radius: 30px;
     width: 100%;
@@ -232,5 +304,8 @@ img {
 }
 
 a {
-    color: #1ec396;
+    color: #407BFF;
+    text-decoration: none;
 }
+
+

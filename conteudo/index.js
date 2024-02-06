@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#view2').addEventListener('click', viewsenha2);
 
 
+    
+
 
     //login
     function viewsenha() {
@@ -52,13 +54,13 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#b-entre').addEventListener('click', () => {
         formentre.style.left = "25px";
         formcadastro.style.left = "450px";
-        entrecad.style.left = "0px";
+        entrecad.style.left = "-35px";
     });
 
     document.querySelector('#b-cadastro').addEventListener('click', () => {
         formentre.style.left = "-440px";
         formcadastro.style.left = "25px";
-        entrecad.style.left = "103px";
+        entrecad.style.left = "98px";
     });
 
     function exibirTextoNaTela(tag, texto) {
