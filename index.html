@@ -11,17 +11,8 @@
     <title>Login e Cadastro</title>
 </head>
 
-
-
-
 <body id="tela-cadastro-cliente">
-  
-
-
 <!-- navbar.html -->
-
-
-
 
     <div class="cad">
         <a href="../index.html"> <img src="../img/logo_petopia.png" width="103"></a> 
@@ -33,10 +24,10 @@
             <button id="b-cadastro">Cadastro</button>
         </div>
         <form id="entre">
-            <span id="envelop" class="material-symbols-outlined">
-                mail
-            </span>
-            <input type="email" placeholder="Email" required>
+            <span id="matricula" class="material-symbols-outlined">
+                badge
+                </span>
+            <input type="text" placeholder="Matricula" required>
             <span class="material-symbols-outlined" id="key">
                 key
             </span>
@@ -48,23 +39,38 @@
               <br>  <input type="checkbox">
                 <span>Lembre-me da senha</span>
             </div>
-            <button type="submit">Entrar</button><br><br><br><br>
-            <a href="../index.html"> <span class="material-symbols-outlined">
-                chevron_left
-                </span></a>
+            <button type="submit">Entrar</button>
+         
         </form>
 
         <form id="Cadastro">
-            <span id="envelop1" class="material-symbols-outlined">
-                mail
-            </span>
-            <input type="email" placeholder="Email" required>
-            <span class="material-symbols-outlined" id="key">
+
+                <span id="matricula1" class="material-symbols-outlined">
+                    badge
+                    </span>
+            <input type="text" placeholder="Matricula" required>
+         
+            <span id="person" class="material-symbols-outlined">
+                person
+                </span>
+
+            <input type="text" placeholder="nome" required>
+        
+            <span id="id" class="material-symbols-outlined">
+                fingerprint
+                </span>
+                <input type="text" placeholder="CPF" required>
+
+            <span id="turma" class="material-symbols-outlined">
+                school
+                </span>
+            <input type="text" placeholder="Turma" required>
+            <span class="material-symbols-outlined" id="key2">
                 key
             </span>
             <input type="password" placeholder="Insira sua senha" id="senha" required>
             <span class="bi bi-eye-fill" id="view1" onclick="viewsenha1()"></span>
-            <span class="material-symbols-outlined" id="key1">
+            <span class="material-symbols-outlined" id="key3">
                 key
             </span>
 
@@ -76,17 +82,11 @@
                 <br> <input type="checkbox" required>
                 <span>Termos de serviço</span>
             </div>
-            <button type="submit">Cadastrar</button><br><br>
-            <a href="../index.html"> <span class="material-symbols-outlined">
-                chevron_left
-                </span></a>
+            <button type="submit">Cadastrar</button>
         </form>
-      
     </div>
 
-  
-
-    <script src="index.js"></script>
+    <script src="conteudo/index.js"></script>
 </body>
 
 </html>

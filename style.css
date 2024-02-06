@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Modak&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+/**Estilos para o cadastro de cliente**/
+
+#view {
+     top: 73px;
+    position: absolute;
+    left: 245px;
+    padding: 12px 15px;
+}
+
+#view1 {
+    top: 240px;
+    position: absolute;
+    left: 245px;
+    padding: 12px 15px;
+}
+
+#view2 {
+    top: 295px;
+    position: absolute;
+    left: 246px;
+    padding: 12px 15px;
+}
+
+#alerta {
+    color: red;
+    font-size: 12px;
+}
+
+#id{
+    top: 128px;
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+#turma{
+    top: 185px;
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+#person {
+    top: 70px;
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+#matricula {
+    top: 15px;
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+#matricula1 {
+    top: 15px;
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+#key {
+    top: 71px;
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+#key1 {
+    top: 125px;
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+#key2 {
+    top: 240px;
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+#key3 {
+    top: 295px;
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: none;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 10px 45px;
+    outline: none;
+    width: 100%;
+}
+
+#tela-cadastro-cliente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cad {
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 350px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px darkgray;
+}
+
+form {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-0%, -50%);
+    width: 100%;
+    max-width: 300px;
+    transition: 0.5s;
+}
+
+.forma {
+    margin-top: 2px;
+    position: relative;
+    box-shadow: 0 0px 15px #1ec396;
+    border-radius: 50px;
+}
+
+.forma button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 25px;
+}
+
+.entre-cad {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right, #abe6d5, #1ec396);
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #1ec396;
+    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #52d4b1;
+}
+
+button[type="submit"] {
+    background: #1ec396;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.lembre-me {
+    margin: 10px;
+    font-size: 13px;
+    width: 80%;
+}
+
+#entre {
+    left: 25px;
+}
+
+#Cadastro {
+    left: 450px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .wrapper {
+        margin-bottom: -5%;
+    }
+
+    .footer-caixa h2, h3 {
+        margin-left: 50px;
+    }
+
+    .contato, .suporte, .guia {
+        margin-left: 50px;
+    }
+}
+
+a {
+    color: #1ec396;
+}
